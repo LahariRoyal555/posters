@@ -1,0 +1,44 @@
+.container {
+  width:100%;
+  max-width:  1000px;
+  margin:20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.cardd{
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  background-color: #FFD700;
+  color:   #030324;
+  border-radius: 20px;
+  margin: 10px 0;;
+  display: flex;
+ flex-direction: column;
+
+}
+.search {
+
+  border-radius: 20px;
+  outline: none;
+  width: 10%;
+  max-width: 900px;
+  padding: 8px 0 ;
+  margin: 10px 10px 0 30px;
+  background-color: #0b5091;
+  color:white;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.input{
+  border-radius: 10px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 40%;
+  margin-top: 30px;
+
+}

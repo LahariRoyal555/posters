@@ -1,0 +1,47 @@
+.container {
+   width:100%;
+   max-width:  1000px;
+   margin:20px auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+.card{
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+  background-color: #030324;
+  color: #FFB6C1;
+  margin: 10px 0;;
+}
+.id{
+  width: 40px;
+height: 40px;
+display: flex;
+}
+span{
+  margin: auto;
+  font-size: 17px;
+}
+p{
+ font-size: 17px;
+ }
+button {
+
+  border-radius: 20px;
+  outline: none;
+  width: 100%;
+  max-width: 900px;
+  padding: 16px 0 ;
+  margin: 10px 0 0 0;
+  background-color: #0b5091;;
+  color:white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.App {
+  text-align: center;
+}
+
+
